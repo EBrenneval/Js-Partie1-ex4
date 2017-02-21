@@ -12,12 +12,12 @@
             <button name="valider" id="valider">Valider</button>
         </form>
 <script>
-var nom = document.getElementById("nom");
+var nom = document.getElementById("nom");//déclaration de la fction qui prends en valeur l'attribut nom
 var prenom = document.getElementById("prenom");
 var ville = document.getElementById("ville");
-var button = document.getElementById("valider");
-button.addEventListener("click",function(){
-  alert(nom.value +"\n"+prenom.value+"\n"+ville.value);
+var button = document.getElementById("valider");// declaration de la fction pour le bouton
+button.addEventListener("click",function(){ //cliquer sur le bouton
+  alert(nom.value +"\n"+prenom.value+"\n"+ville.value);// la fction alert permet d'afficher la boite de dial
 });
   </script>
     </body>
